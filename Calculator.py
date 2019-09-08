@@ -24,21 +24,29 @@ print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
 
-choice = input("Enter Your Choice")
+choice = input("Enter Your Choice:  ")
 
-num1 = int(input("Enter first number"))
-num2 = int(input("Enter second number"))
+if choice > "4":
+   print("Enter any option between 1 to 4")
+   exit()
+
+if choice < "1":
+   print("Enter any option between 1 to 4")
+   exit()
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 
 if choice == "1":
     print(num1,"+",num2,"=", add(num1,num2))
 
-else choice == "2":
+elif choice == "2":
     print(num1,"-",num2,"=", sub(num1,num2))
 
-else choice == "3":
+elif choice == "3":
     print(num1,"*",num2,"=", mul(num1,num2))
 
-else choice == "4":
+elif choice == "4":
     print(num1,"/",num2,"=", div(num1,num2))
 
 else: print("Enter a valid input")
