@@ -25,17 +25,18 @@ print("3.Multiply")
 print("4.Divide")
 
 choice = input("Enter Your Choice:  ")
-
+print("\n")
 if choice > "4":
-   print("Enter any option between 1 to 4")
+   print("Enter any option between 1 to 4 \n")
    exit()
 
 if choice < "1":
-   print("Enter any option between 1 to 4")
+   print("Enter any option between 1 to 4 \n")
    exit()
 
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
+print("\n")
 
 if choice == "1":
     print("Addition of:",num1,"+",num2,"=", add(num1,num2))
@@ -48,4 +49,4 @@ elif choice == "3":
 
 elif choice == "4":
     print("Divition of:",num1,"/",num2,"=", div(num1,num2))
-
+print("\n")
