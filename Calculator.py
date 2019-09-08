@@ -38,16 +38,14 @@ num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 
 if choice == "1":
-    print(num1,"+",num2,"=", add(num1,num2))
+    print("Addition of:",num1,"+",num2,"=", add(num1,num2))
 
 elif choice == "2":
-    print(num1,"-",num2,"=", sub(num1,num2))
+    print("Subtarction of:",num1,"-",num2,"=", sub(num1,num2))
 
 elif choice == "3":
-    print(num1,"*",num2,"=", mul(num1,num2))
+    print("Multiplication of:",num1,"*",num2,"=", mul(num1,num2))
 
 elif choice == "4":
-    print(num1,"/",num2,"=", div(num1,num2))
-
-else: print("Enter a valid input")
+    print("Divition of:",num1,"/",num2,"=", div(num1,num2))
 
