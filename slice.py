@@ -1,7 +1,20 @@
-a='Hello, world!'
-print(a[2:5]) #this will print the string star from positon 2 to position 4 : llo
+a=' Hello, world!'
+print(a+"\n")
 
-print(a[-5:-2]) # this start count from back : orl
+print(a[2:5]+"\n") #this will print the string star from positon 2 to position 4 : ell
 
-print(len(a)) # used to know the length of string
+print(a[-5:-2]+"\n") # this start count from back : orl
 
+print(len(a))# used to know the length of string
+print("\n")
+
+print(a.strip()+"\n") # used to remove any white space from beginning or end
+
+print(a.lower()+"\n") # used to print string in lower case 
+
+print(a.upper()+"\n") # used to print string in upper case
+
+print(a.replace("H","J")+"\n") # replace the string with another string
+
+print(a.split(",")) #split the string into substring if it is finds instances of
+print("\n")
