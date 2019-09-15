@@ -26,3 +26,14 @@ print("\n")
 b="ell" not in a # check the given string not present in string return true or fals
 print(b)
 print("\n")
+
+c="welcome"
+print(c.capitalize()) #convert first character to upper case
+print("\n")
+
+e="WELCOME TO MY WORLD"
+print(e.casefold()) #convert to lowercase letter
+print("\n")
+
+print(a.center(50)) #add white space befor and after with assigned value heare it is 50
+
