@@ -35,5 +35,17 @@ e="WELCOME TO MY WORLD"
 print(e.casefold()) #convert to lowercase letter
 print("\n")
 
-print(a.center(50)) #add white space befor and after with assigned value heare it is 50
+print(a.center(50))#add white space befor and after with assigned value heare it is 50
+print("\n")
 
+print(e.count('O')) # hear it count how many time 'O' is present in string
+print("\n")
+
+print(e.encode())
+print("\n")
+
+print(e.endswith('D')) # check if the strig is endss with given value
+print("\n")
+
+f="42\t32\tgood\thelp"
+print(f.expandtabs(10)) # set the tab size ("\t") 
