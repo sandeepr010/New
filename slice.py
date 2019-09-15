@@ -48,4 +48,10 @@ print(e.endswith('D')) # check if the strig is endss with given value
 print("\n")
 
 f="42\t32\tgood\thelp"
-print(f.expandtabs(10)) # set the tab size ("\t") 
+print(f.expandtabs(10)) # set the tab size ("\t")
+print("\n")
+
+print(e.find("TO")) # Search the string for a specified value and return the position of the value
+print("\n")
+
+
