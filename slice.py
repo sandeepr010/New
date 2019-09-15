@@ -18,3 +18,11 @@ print(a.replace("H","J")+"\n") # replace the string with another string
 
 print(a.split(",")) #split the string into substring if it is finds instances of
 print("\n")
+
+d="ell" in a # check the given string present in string return true or fals
+print(d)
+print("\n")
+
+b="ell" not in a # check the given string not present in string return true or fals
+print(b)
+print("\n")
