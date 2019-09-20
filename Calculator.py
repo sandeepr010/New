@@ -24,15 +24,16 @@ print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
 
-choice = input("Enter Your Choice:  ")
-print("\n")
-if choice > "4":
-   print("Enter any option between 1 to 4 \n")
-   exit()
+while True:
 
-if choice < "1":
-   print("Enter any option between 1 to 4 \n")
-   exit()
+         choice = input("Enter Your Option:  ")
+         print("\n")
+
+         if choice > "4" or choice <"1":
+                  print("Enter option between 1 to 4 \n")
+                                  
+         elif choice <="4" and choice >="1" :
+             break
 
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
