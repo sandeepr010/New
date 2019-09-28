@@ -40,14 +40,14 @@ num2 = int(input("Enter second number: "))
 print("\n")
 
 if choice == "1":
-    print("Addition of:",num1,"+",num2,"=", add(num1,num2))
+    print("Addition of {} and {} = {} ".format(num1,num2,add(num1,num2)))
 
 elif choice == "2":
-    print("Subtarction of:",num1,"-",num2,"=", sub(num1,num2))
+    print("Subtarction of {} and {} = {} ".format(num1,num2,sub(num1,num2)))
 
 elif choice == "3":
-    print("Multiplication of:",num1,"*",num2,"=", mul(num1,num2))
+    print("Multiplication of {} and {} = {}".format(num1,num2,mul(num1,num2)))
 
 elif choice == "4":
-    print("Divition of:",num1,"/",num2,"=", div(num1,num2))
+    print("Divition of {} and {} = {}".format(num1,num2,div(num1,num2)))
 print("\n")

@@ -1,7 +1,7 @@
-a = int(input("enter first number"))
-b = int(input("enter second number"))
+a = int(input("enter first number : "))
+b = int(input("enter second number : "))
 
-sum = a+b
+s = a+b
 
-print("sum", sum)
+print("\nSum of {} and {} = {} ".format(a,b,s),"\n")
 
