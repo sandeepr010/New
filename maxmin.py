@@ -5,7 +5,7 @@ for i in range(0,b):
     d = 1+i
     c = float(input("Enter {} no : ".format(d)))
     a.append(c)
-print("Given list : ",a)
+print("\nGiven list : ",a)
 
 minu = a[0]
 for x in a:
