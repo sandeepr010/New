@@ -20,6 +20,6 @@ while True:
         if inp == v[i] or inp == n[i] or inp == st[i]:
             z += 1
             print("*"*20,"Record Found","*"*20)
-            print("Name : {} \nVechile No : {} \nMobile No : {} \nState : {}".format(v[i],n[i],mnm[i],st[i]),"\n")
+            print("Name : {} \nVechile No : {} \nMobile No : {} \nState : {}".format(n[i],v[i],mnm[i],st[i]),"\n")
     if z == 0:
         print("="*10,"Record for '{}' not found".format(inp),"="*10,"\n")
